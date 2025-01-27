@@ -180,3 +180,4 @@ AgentHistoryList.json
 gcp-login.json
 .vscode
 .ruff_cache
+browser_sharp/obj

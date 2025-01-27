@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotPostHog" Version="2.0.0-preview5" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.49.0" />
+  </ItemGroup>
+
+</Project>
