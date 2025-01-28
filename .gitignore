@@ -181,3 +181,7 @@ gcp-login.json
 .vscode
 .ruff_cache
 browser_sharp/obj
+.vs
+.vs/browser-use/FileContentIndex/f2e514f5-8d59-42ca-9b17-fa28046941c7.vsidx
+.vs/browser-use/v17/.suo
+.vs/browser-use/v17/DocumentLayout.json
