@@ -6,6 +6,7 @@ To test this locally, follow these steps:
 2. Add the following argument to the shortcut:
    - On Windows: `--remote-debugging-port=9222`
 3. Open a web browser and navigate to `http://localhost:9222/json/version` to verify that the Remote Debugging Protocol (CDP) is running.
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
 4. Launch this example.
 
 @dev You need to set the `GEMINI_API_KEY` environment variable before proceeding.
@@ -45,8 +46,8 @@ controller = Controller()
 
 
 async def main():
-	task = f'In docs.google.com write my Papa a quick thank you for everything letter \n - Magnus'
-	task += f' and save the document as pdf'
+	task = f'go to https://www.facebook.com/groups/194162271256887 and extract first post'
+	task += f' and save the document as json file in c:\\test.json file'
 	model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp',api_key=SecretStr(api_key))
 	agent = Agent(
 		task=task,
